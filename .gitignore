@@ -1,0 +1,34 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Data
+data/raw/*
+data/processed/*
+data/synthetic/*
+!data/**/.gitkeep
+
+# Models
+models/**/*.pt
+models/**/*.pth
+models/**/*.onnx
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+*.env.local
+
+# Notebooks
+notebooks/.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
